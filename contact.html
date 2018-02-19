@@ -3,10 +3,11 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Index</title>
+    <title>Contact</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Fira+Sans+Condensed|Hind|Patua+One" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" />
     
 </head>
@@ -14,7 +15,7 @@
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand" href="#">Lina Kichen</a>
+                <a class="navbar-brand" href="index.html">Lina Kichen</a>
             </div>
             <div class="collapse navbar-collapse" id="collapse-bar">
                 <ul class="nav navbar-nav navbar-right">
@@ -31,37 +32,51 @@
             <div class="col-md-8">
                 <div class="header">
                     <h1>Contact</h1>
-                    
-                    /* Insert bootstrap form template here */    
-                </div>
-                
-                <div class="col-md-4">
-                    <div class="panel panel-default">
-                        <div class="panel-heading">
-                            <h3 class="panel-title">Contact Me</h3>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="name" class="form-control" id="name" pl>
                         </div>
-                        <div class="panel-body">
-                            <a href="#" alt="LinkdIn">
-                                <img src="#">
-                            </a>
-                            <a href="#" alt="Github">
-                                <img src="#">
-                            </a>
-                            <a href="#" alt="StackOverflow">
-                                <img src="#">
-                            </a>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" pl>
                         </div>
-                    </div>
+                        <div class="form-group">
+                            <label for="text-area">Write a message...</label>
+                            <textarea class="form-control" id="text-area" rows="4"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>                       
                 </div>
             </div>
             
-            <footer class="footer">
-                <div class="container">
-                    <p id="copyright">Copyright©Lina Kichen 2018</p>
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Contact Me</h3>
+                    </div>
+                    <div class="panel-body">
+                        <a href="https://github.com/hkichen" alt="GitHub">
+                            <img src="assets/images/github.png">
+                        </a>
+                        <a href="https://www.linkedin.com/in/hoan-kichen-56437377/" alt="LinkedIn">
+                            <img src="assets/images/linkedin.png">
+                        </a>
+                        <a href="https://stackoverflow.com/users/9324897/lina-kichen" alt="StackOverflow">
+                            <img src="assets/images/stackoverflow.png">
+                        </a>
+                    </div>
                 </div>
-            </footer>
-            
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-        </body>
-        </html>
+            </div>
+        </div>
+        
+        <footer class="footer">
+            <div class="container">
+                <p id="copyright">Copyright©Lina Kichen 2018</p>
+            </div>
+        </footer>
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    </body>
+    </html>
