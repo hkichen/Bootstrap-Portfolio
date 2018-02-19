@@ -1,0 +1,20 @@
+body{
+    height: 100%;
+    padding-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    padding-top: 20px;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-top-style: solid;
+    border-top-color: teal;
+    border-top-width: 4px;
+    height: 56px;
+}
+
+#copyright {
+    text-align: center;
+}
