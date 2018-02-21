@@ -2,16 +2,39 @@ body{
     font-family: 'Hind', sans-serif;
     height: 100%;
     padding-bottom: 60px;
-    background: url(../assets/images/subtle_grunge.png)
+    background: url(../assets/images/aqua.png)
+}
+.navbar-inverse {
+    font-size: 20px;
+    font-family:'Patua One', cursive;
 }
 
-.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
-    color: #ffffff;
+.navbar-brand {
+    font-size: 30px;
+    font-family:'Patua One', cursive;
 }
 
-h1, h3 {
-    font-family: font-family: 'Patua One', cursive;
+.header {
+    border-bottom: solid #dddddd 2px;
+    margin-bottom: 18px;
 }
+h1{
+    font-family: 'Patua One', cursive;
+    font-size: 25px;
+}
+
+.bio {
+    font-size: 18px;
+}
+.panel-title {
+    font-size: 25px;
+    font-family: 'Patua One', cursive;
+}
+
+.panel-default>.panel-heading {
+    padding-bottom: 18px;
+}
+
 
 .footer {
     position: absolute;
@@ -21,8 +44,8 @@ h1, h3 {
     width: 100%;
     border-top-style: solid;
     border-top-color: teal;
-    border-top-width: 4px;
-    background: 
+    border-top-width: 6px;
+    background: #dddddd; 
     height: 56px;
 }
 
@@ -34,6 +57,24 @@ h1, h3 {
     overflow: auto;
 }
 
+.creations {
+    position: relative;
+}
+.img-label {
+    width: 250px;
+    background: mediumaquamarine;
+    color: #fff;
+    position: relative;
+    left: 23px;
+    bottom: 35px;
+    font-size: 20px;
+}
+
+.connect {
+    width: 30%;
+    height: auto;
+    padding-left:20px;
+}
 #copyright {
     text-align: center;
 }
